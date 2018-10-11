@@ -11,7 +11,7 @@ const TagManager = {
 
     const noScript = () => {
       const noscript = document.createElement('noscript')
-      noscript.innerHTML = snippets.iframe
+      noscript.append(snippets.iframe)
       return noscript
     }
 
