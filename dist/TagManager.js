@@ -17,7 +17,7 @@ var TagManager = {
 
     var noScript = function noScript() {
       var noscript = document.createElement('noscript');
-      noscript.innerHTML = snippets.iframe;
+      noscript.append(snippets.iframe);
       return noscript;
     };
 
